@@ -113,4 +113,114 @@
                         <option value="co-owner">Совладелец</option>
                         <option value="actress">Актриса озвучки</option>
                         <option value="actor">Актёр озвучки</option>
-                        <option value="editor">Реда
+                        <option value="editor">Редактор</option>
+                        <option value="translator">Переводчик</option>
+                        <option value="sound">Звукомонтажер</option>
+                        <option value="video">Монтажер</option>
+                    </select>
+                    <button class="btn btn-primary" id="add-member-btn">Добавить</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> <span id="contact-address"></span></p>
+                <p><i class="fas fa-phone"></i> <span id="contact-phone"></span></p>
+                <p><i class="fas fa-envelope"></i> <span id="contact-email"></span></p>
+                <p><i class="fas fa-clock"></i> <span id="contact-schedule"></span></p>
+            </div>
+        </section>
+
+        <section id="admin-section" style="display: none;">
+            <h2>Панель администратора</h2>
+            
+            <div class="admin-section">
+                <h3>Загрузка видео</h3>
+                <div class="form-group">
+                    <input type="file" id="videoUpload">
+                    <button class="btn btn-primary" id="upload-video-btn">Загрузить</button>
+                </div>
+            </div>
+            
+            <div class="admin-section">
+                <h3>Управление проектами</h3>
+                <div class="form-group">
+                    <input type="text" id="project-title-input" placeholder="Название проекта">
+                    <textarea id="project-description-input" placeholder="Описание проекта"></textarea>
+                    <input type="text" id="project-category-input" placeholder="Категория">
+                    <button class="btn btn-primary" id="add-project-btn">Добавить проект</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2023 Aniframe Studio. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Модальные окна -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Вход</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Пароль</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Войти</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Регистрация</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="regName">Имя</label>
+                    <input type="text" id="regName" required>
+                </div>
+                <div class="form-group">
+                    <label for="regEmail">Email</label>
+                    <input type="email" id="regEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="regPassword">Пароль</label>
+                    <input type="password" id="regPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="regConfirmPassword">Подтвердите пароль</label>
+                    <input type="password" id="regConfirmPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="userRole">Роль</label>
+                    <select id="userRole">
+                        <option value="viewer">Зритель</option>
+                        <option value="admin">Администратор</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-storage-compat.js"></script>
+    <script src="scripts/firebase.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/auth.js"></script>
+    <script src="scripts/admin.js"></script>
+</body>
+</html>
