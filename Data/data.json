@@ -1,0 +1,198 @@
+{
+  "studio": {
+    "name": "Aniframe",
+    "description": "Любительская студия озвучки и дубляжа",
+    "logo": "images/logo.png",
+    "favicon": "images/favicon.ico"
+  },
+  "contacts": {
+    "address": "В сердцах зрителей",
+    "phone": "+7 (*************)",
+    "email": "Ehhevi1@gmail.com",
+    "schedule": "Пн-Пт: 9:00 - 18:00",
+    "social_media": {
+      "vk": "https://vk.com/aniframe",
+      "telegram": "https://t.me/aniframe",
+      "youtube": "https://youtube.com/aniframe"
+    }
+  },
+  "team": {
+    "owners": [
+      {
+        "id": 1,
+        "name": "Go to Sata Lilili",
+        "role": "Владелец",
+        "photo": "images/team/owner.jpg",
+        "description": "Основатель студии, режиссёр дубляжа"
+      }
+    ],
+    "co_owners": [
+      {
+        "id": 2,
+        "name": "Zynx",
+        "role": "Совладелец",
+        "photo": "images/team/co_owner.jpg",
+        "description": "Художественный руководитель"
+      }
+    ],
+    "actresses": [
+      {
+        "id": 3,
+        "name": "Rin",
+        "photo": "images/team/actress1.jpg",
+        "description": "Актриса озвучки, специализация - молодые героини"
+      },
+      {
+        "id": 4,
+        "name": "?",
+        "photo": "images/team/actress2.jpg",
+        "description": "Актриса озвучки, специализация - характерные роли"
+      }
+    ],
+    "actors": [
+      {
+        "id": 5,
+        "name": "Kese",
+        "photo": "images/team/actor1.jpg",
+        "description": "Актёр озвучки, специализация - главные герои"
+      }
+    ],
+    "editors": [
+      {
+        "id": 6,
+        "name": "Go to Sata Lilili",
+        "photo": "images/team/editor1.jpg",
+        "description": "Редактор, опыт работы 7 лет"
+      }
+    ],
+    "translators": [
+      {
+        "id": 7,
+        "name": "Go to Sata Lilili",
+        "photo": "images/team/translator1.jpg",
+        "description": "Переводчик, японский и английский языки"
+      }
+    ],
+    "sound_engineers": [
+      {
+        "id": 8,
+        "name": "?",
+        "photo": "images/team/sound_engineer1.jpg",
+        "description": "Звукорежиссёр, специализация - чистка звука"
+      }
+    ],
+    "editors_video": [
+      {
+        "id": 9,
+        "name": "Zynx",
+        "photo": "images/team/video_editor1.jpg",
+        "description": "Монтажёр, специализация - синхронизация"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": 1,
+      "title": "Аниме 'Великий из бродячих псов'",
+      "description": "Полный дубляж на русский язык 3 сезона популярного аниме. Работа выполнена в 2022 году.",
+      "detailed_description": "Над проектом работали 15 человек в течение 6 месяцев. Было записано более 100 часов аудиоматериала. Особое внимание уделялось передаче эмоций главных героев и сохранению оригинального настроения аниме.",
+      "image": "images/projects/project1.jpg",
+      "video": "videos/project1_trailer.mp4",
+      "year": 2022,
+      "team": [1, 2, 3, 5, 6, 7, 8, 9],
+      "category": "Аниме",
+      "comments": [
+        {
+          "id": 1,
+          "user_id": 101,
+          "user_name": "Алексей К.",
+          "date": "2023-05-20",
+          "text": "Отличная работа над озвучкой! Особенно понравился главный герой.",
+          "rating": 5
+        },
+        {
+          "id": 2,
+          "user_id": 102,
+          "user_name": "Марина С.",
+          "date": "2023-05-22",
+          "text": "Спасибо за качественный дубляж. Жду продолжения!",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Документальный фильм 'Океаны'",
+      "description": "Озвучка и саунд-дизайн для документального фильма о мировом океане.",
+      "detailed_description": "Проект включал запись голоса за кадром, создание звуковых эффектов и музыкальное оформление. Особую сложность представляла работа с подводными звуками.",
+      "image": "images/projects/project2.jpg",
+      "video": "videos/project2_trailer.mp4",
+      "year": 2023,
+      "team": [2, 4, 8],
+      "category": "Документальный фильм",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Игра 'Cyber Odyssey'",
+      "description": "Полная локализация и озвучка компьютерной игры в жанре RPG.",
+      "detailed_description": "Было озвучено более 50 персонажей, записано более 20 часов диалогов. Особое внимание уделялось созданию уникальных голосов для каждого персонажа.",
+      "image": "images/projects/project3.jpg",
+      "video": "videos/project3_trailer.mp4",
+      "year": 2023,
+      "team": [1, 3, 5, 7, 8, 9],
+      "category": "Видеоигра",
+      "comments": []
+    }
+  ],
+  "users": [
+    {
+      "id": 100,
+      "email": "admin@aniframe.ru",
+      "password": "admin123",
+      "name": "Администратор",
+      "role": "admin",
+      "registration_date": "2023-01-15"
+    },
+    {
+      "id": 101,
+      "email": "user1@example.com",
+      "password": "password123",
+      "name": "Алексей К.",
+      "role": "viewer",
+      "registration_date": "2023-03-10"
+    }
+  ],
+  "content": {
+    "home_page": {
+      "welcome_text": "Добро пожаловать в студию озвучки и дубляжа Aniframe! Мы создаём высококачественную локализацию видео контента уже более 5 лет.",
+      "services": [
+        "Дубляж аниме и фильмов",
+        "Локализация видеоигр",
+        "Озвучка рекламных роликов",
+        "Создание звуковых эффектов"
+      ]
+    },
+    "about_page": {
+      "history": "Студия Aniframe была основана в 2018 году и с тех пор успела поработать над более чем 50 проектами.",
+      "achievements": [
+        "Лучшая студия дубляжа 2022 года",
+        "Приз зрительских симпатий на фестивале AnimeCon 2021"
+      ]
+    }
+  },
+  "settings": {
+    "site_title": "Aniframe - Студия озвучки и дубляжа",
+    "theme": {
+      "primary_color": "#ff9800",
+      "secondary_color": "#2c2c2c",
+      "background_color": "#3c3c3c",
+      "text_color": "#e0e0e0"
+    },
+    "features": {
+      "comments_enabled": true,
+      "rating_enabled": true,
+      "registration_enabled": true
+    }
+  }
+}
